@@ -6,8 +6,8 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 
-const char *ssid     = "SKY6D12C";
-const char *password = "WQSUBEPQ";
+const char *ssid     = "********"; // Your SSID here
+const char *password = "********"; // Your password here
 
 IPAddress ip(192, 168, 0, 53);   // The address 192.168.0.53 is arbitary, if could be any address in the range of your router, but not another device!
 IPAddress gateway(192,168,0,1);  // My router has this base address
